@@ -1,16 +1,16 @@
 import Row from "../Row/Row";
-import requests from '../../../utils/requests';
+import requests from "../../../utils/requests";
 
 function RowList() {
   return (
     <>
       <Row
         title="NETFLIX ORIGINALS"
-        fetchUrl={requests.fetchNetflixOriginals} 
+        fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow={true}
       />
 
-       <Row title="Trending" fetchUrl={requests.fetchTrending} />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
 
       <Row title="Top Rated" fetchUrl={requests.fetchTopRatedMovies} />
 
@@ -24,7 +24,7 @@ function RowList() {
 
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
 
-      <Row title="TV Shows" fetchUrl={requests.fetchTvShow} /> 
+      <Row title="TV Shows" fetchUrl={requests.fetchTvShow} />
     </>
   );
 }
