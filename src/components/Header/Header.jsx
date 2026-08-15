@@ -3,8 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
-
-import NetflixLogo from "../../assets/images/NetflixLogo.svg";
+import kalmovies from "../../assets/images/kalmovies.png";
 
 function Header() {
   return (
@@ -12,9 +11,10 @@ function Header() {
       <div className="header-outer-container">
         <div className="header_container">
           <div className="header_left">
+            <p>"Educational Portfolio Project Only - Not affiliated with Netflix."</p>
             <ul>
               <li>
-                <img src={NetflixLogo} alt="Netflix Logo" width="100" />
+                <img src={kalmovies} alt="kalmovies logo" width="100" />
               </li>
               <li>Home</li>
               <li>TVShows</li>

@@ -5,8 +5,8 @@ function RowList() {
   return (
     <>
       <Row
-        title="NETFLIX ORIGINALS"
-        fetchUrl={requests.fetchNetflixOriginals}
+        title="KALMOVIE ORIGINALS"
+        fetchUrl={requests.fetchOriginals}
         isLargeRow={true}
       />
 
@@ -22,7 +22,7 @@ function RowList() {
 
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
 
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} /> 
 
       <Row title="TV Shows" fetchUrl={requests.fetchTvShow} />
     </>
