@@ -11,7 +11,6 @@ function Header() {
       <div className="header-outer-container">
         <div className="header_container">
           <div className="header_left">
-            <p>"Educational Portfolio Project Only - Not affiliated with Netflix."</p>
             <ul>
               <li>
                 <img src={kalmovies} alt="kalmovies logo" width="100" />

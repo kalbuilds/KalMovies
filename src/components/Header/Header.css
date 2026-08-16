@@ -32,10 +32,6 @@
     cursor: pointer;
 }
 
-.header p{
-    margin-bottom:20px;
-}
-
 .header_right ul {
     width: 120%;
     display: flex;
