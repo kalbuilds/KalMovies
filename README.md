@@ -1,16 +1,26 @@
-# React + Vite
+# KalMovies 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive, Netflix-inspired movie web application built with React and Vite. Browse trending movies, explore detailed titles, and discover popular media with a sleek, modern UI.
 
-Currently, two official plugins are available:
+![KalMovies Banner](https://via.placeholder.com/1200x400/141414/ffffff?text=KalMovies+-+Netflix+Inspired)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎥 **Netflix-Style Interface:** Dark-themed UI featuring movie rows, banners, and dynamic showcases.
+- ⚡ **Lightning Fast:** Powered by Vite for instant Hot Module Replacement (HMR) and fast build times.
+- 📱 **Fully Responsive:** Optimized for desktop, tablet, and mobile viewing.
+- 🌐 **Dynamic Content:** Integrated with live movie databases (TMDB API) to present trending, top-rated, and genre-specific titles.
+- 🛠️ **Express Backend Integration:** Flexible architecture backed by Express.js for handling API requests and server operations.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, HTML5, CSS3 
+- **Build Tool:** Vite
+- **API:** TMDB (The Movie Database API)
+- **Deployment:**  github /  Netlify / vercel
+
+---
